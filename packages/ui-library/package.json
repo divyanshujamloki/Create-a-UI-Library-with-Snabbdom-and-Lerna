@@ -1,0 +1,21 @@
+{
+  "name": "ui-library",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Your Name <you@example.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/ui-library.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": ["lib"],
+  "scripts": {
+    "test": "node ./__tests__/ui-library.test.js",
+    "build": "babel src -d lib"
+  },
+  "dependencies": {
+    "snabbdom": "^3.5.1"
+  }
+}
